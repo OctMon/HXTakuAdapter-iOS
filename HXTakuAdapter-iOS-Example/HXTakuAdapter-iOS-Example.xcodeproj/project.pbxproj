@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6123A9970AC7463BB18AE6AF /* Pods_HXTakuAdapter_iOS_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011A7DB20DDB40AD03A6E26B /* Pods_HXTakuAdapter_iOS_ExampleTests.framework */; };
+		E3C412F67EEA748F78C0F9A2 /* Pods_HXTakuAdapter_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCC117B5CC882CDEB96D5684 /* Pods_HXTakuAdapter_iOS_Example.framework */; };
+		FB10080D0453A227D1E6094B /* Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D17F7BEBAC47AF4E8DA800 /* Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E44BB9C62D9B9B7E00A77A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44BB9A22D9B9B7D00A77A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44BB9A92D9B9B7D00A77A3E;
+			remoteInfo = "HXTakuAdapter-iOS-Example";
+		};
+		E44BB9D02D9B9B7E00A77A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E44BB9A22D9B9B7D00A77A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E44BB9A92D9B9B7D00A77A3E;
+			remoteInfo = "HXTakuAdapter-iOS-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011A7DB20DDB40AD03A6E26B /* Pods_HXTakuAdapter_iOS_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTakuAdapter_iOS_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D17F7BEBAC47AF4E8DA800 /* Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A623F6BA6A593FBF1C15BB /* Pods-HXTakuAdapter-iOS-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-ExampleTests/Pods-HXTakuAdapter-iOS-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		560EE689720D26BE2E824019 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF1A95A90DFEDAC6844189AD /* Pods-HXTakuAdapter-iOS-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-Example.debug.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-Example/Pods-HXTakuAdapter-iOS-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E44BB9AA2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HXTakuAdapter-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44BB9C52D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXTakuAdapter-iOS-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E44BB9CF2D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HXTakuAdapter-iOS-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F5F1BE9A610A512230F646 /* Pods-HXTakuAdapter-iOS-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-Example.release.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-Example/Pods-HXTakuAdapter-iOS-Example.release.xcconfig"; sourceTree = "<group>"; };
+		FC0CBE387188A4C393C5AE77 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC26AC18745CDF6E1D7CDCB8 /* Pods-HXTakuAdapter-iOS-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXTakuAdapter-iOS-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-HXTakuAdapter-iOS-ExampleTests/Pods-HXTakuAdapter-iOS-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCC117B5CC882CDEB96D5684 /* Pods_HXTakuAdapter_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXTakuAdapter_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E44BB9D72D9B9B7E00A77A3E /* Exceptions for "HXTakuAdapter-iOS-Example" folder in "HXTakuAdapter-iOS-Example" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E44BB9A92D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E44BB9AC2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E44BB9D72D9B9B7E00A77A3E /* Exceptions for "HXTakuAdapter-iOS-Example" folder in "HXTakuAdapter-iOS-Example" target */,
+			);
+			path = "HXTakuAdapter-iOS-Example";
+			sourceTree = "<group>";
+		};
+		E44BB9C82D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HXTakuAdapter-iOS-ExampleTests";
+			sourceTree = "<group>";
+		};
+		E44BB9D22D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "HXTakuAdapter-iOS-ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44BB9A72D9B9B7D00A77A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C412F67EEA748F78C0F9A2 /* Pods_HXTakuAdapter_iOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9C22D9B9B7E00A77A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6123A9970AC7463BB18AE6AF /* Pods_HXTakuAdapter_iOS_ExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9CC2D9B9B7E00A77A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB10080D0453A227D1E6094B /* Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF5C6D985DDA0B5F686003F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A95A90DFEDAC6844189AD /* Pods-HXTakuAdapter-iOS-Example.debug.xcconfig */,
+				E8F5F1BE9A610A512230F646 /* Pods-HXTakuAdapter-iOS-Example.release.xcconfig */,
+				FC0CBE387188A4C393C5AE77 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.debug.xcconfig */,
+				560EE689720D26BE2E824019 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.release.xcconfig */,
+				36A623F6BA6A593FBF1C15BB /* Pods-HXTakuAdapter-iOS-ExampleTests.debug.xcconfig */,
+				FC26AC18745CDF6E1D7CDCB8 /* Pods-HXTakuAdapter-iOS-ExampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BB88949A8463FD7245DBB00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC117B5CC882CDEB96D5684 /* Pods_HXTakuAdapter_iOS_Example.framework */,
+				20D17F7BEBAC47AF4E8DA800 /* Pods_HXTakuAdapter_iOS_Example_HXTakuAdapter_iOS_ExampleUITests.framework */,
+				011A7DB20DDB40AD03A6E26B /* Pods_HXTakuAdapter_iOS_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E44BB9A12D9B9B7D00A77A3E = {
+			isa = PBXGroup;
+			children = (
+				E44BB9AC2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */,
+				E44BB9C82D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */,
+				E44BB9D22D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */,
+				E44BB9AB2D9B9B7D00A77A3E /* Products */,
+				2EF5C6D985DDA0B5F686003F /* Pods */,
+				6BB88949A8463FD7245DBB00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E44BB9AB2D9B9B7D00A77A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E44BB9AA2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example.app */,
+				E44BB9C52D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests.xctest */,
+				E44BB9CF2D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E44BB9A92D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44BB9D82D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-Example" */;
+			buildPhases = (
+				F44034683F1695356F1A1C08 /* [CP] Check Pods Manifest.lock */,
+				E44BB9A62D9B9B7D00A77A3E /* Sources */,
+				E44BB9A72D9B9B7D00A77A3E /* Frameworks */,
+				E44BB9A82D9B9B7D00A77A3E /* Resources */,
+				C95AF17ADC5B98002FF37DB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E44BB9AC2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */,
+			);
+			name = "HXTakuAdapter-iOS-Example";
+			productName = "HXTakuAdapter-iOS-Example";
+			productReference = E44BB9AA2D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E44BB9C42D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44BB9DD2D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-ExampleTests" */;
+			buildPhases = (
+				2DF8318182B69FA2F5CFD74A /* [CP] Check Pods Manifest.lock */,
+				E44BB9C12D9B9B7E00A77A3E /* Sources */,
+				E44BB9C22D9B9B7E00A77A3E /* Frameworks */,
+				E44BB9C32D9B9B7E00A77A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44BB9C72D9B9B7E00A77A3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E44BB9C82D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */,
+			);
+			name = "HXTakuAdapter-iOS-ExampleTests";
+			productName = "HXTakuAdapter-iOS-ExampleTests";
+			productReference = E44BB9C52D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E44BB9CE2D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44BB9E02D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-ExampleUITests" */;
+			buildPhases = (
+				A181B82041686F46A3BBFCE7 /* [CP] Check Pods Manifest.lock */,
+				E44BB9CB2D9B9B7E00A77A3E /* Sources */,
+				E44BB9CC2D9B9B7E00A77A3E /* Frameworks */,
+				E44BB9CD2D9B9B7E00A77A3E /* Resources */,
+				0469DD86C8EF42CAFDD204B0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E44BB9D12D9B9B7E00A77A3E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E44BB9D22D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */,
+			);
+			name = "HXTakuAdapter-iOS-ExampleUITests";
+			productName = "HXTakuAdapter-iOS-ExampleUITests";
+			productReference = E44BB9CF2D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44BB9A22D9B9B7D00A77A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E44BB9A92D9B9B7D00A77A3E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E44BB9C42D9B9B7E00A77A3E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E44BB9A92D9B9B7D00A77A3E;
+					};
+					E44BB9CE2D9B9B7E00A77A3E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E44BB9A92D9B9B7D00A77A3E;
+					};
+				};
+			};
+			buildConfigurationList = E44BB9A52D9B9B7D00A77A3E /* Build configuration list for PBXProject "HXTakuAdapter-iOS-Example" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44BB9A12D9B9B7D00A77A3E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E44BB9AB2D9B9B7D00A77A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E44BB9A92D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */,
+				E44BB9C42D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */,
+				E44BB9CE2D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44BB9A82D9B9B7D00A77A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9C32D9B9B7E00A77A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9CD2D9B9B7E00A77A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0469DD86C8EF42CAFDD204B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF8318182B69FA2F5CFD74A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXTakuAdapter-iOS-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A181B82041686F46A3BBFCE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C95AF17ADC5B98002FF37DB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example/Pods-HXTakuAdapter-iOS-Example-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example/Pods-HXTakuAdapter-iOS-Example-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example/Pods-HXTakuAdapter-iOS-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44034683F1695356F1A1C08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HXTakuAdapter-iOS-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44BB9A62D9B9B7D00A77A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9C12D9B9B7E00A77A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44BB9CB2D9B9B7E00A77A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E44BB9C72D9B9B7E00A77A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44BB9A92D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */;
+			targetProxy = E44BB9C62D9B9B7E00A77A3E /* PBXContainerItemProxy */;
+		};
+		E44BB9D12D9B9B7E00A77A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E44BB9A92D9B9B7D00A77A3E /* HXTakuAdapter-iOS-Example */;
+			targetProxy = E44BB9D02D9B9B7E00A77A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E44BB9D92D9B9B7E00A77A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A95A90DFEDAC6844189AD /* Pods-HXTakuAdapter-iOS-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HHTRN5N5L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HXTakuAdapter-iOS-Example/Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxad.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E44BB9DA2D9B9B7E00A77A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F5F1BE9A610A512230F646 /* Pods-HXTakuAdapter-iOS-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2HHTRN5N5L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HXTakuAdapter-iOS-Example/Info.plist";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hxad.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E44BB9DB2D9B9B7E00A77A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E44BB9DC2D9B9B7E00A77A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44BB9DE2D9B9B7E00A77A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36A623F6BA6A593FBF1C15BB /* Pods-HXTakuAdapter-iOS-ExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXTakuAdapter-iOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXTakuAdapter-iOS-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HXTakuAdapter-iOS-Example";
+			};
+			name = Debug;
+		};
+		E44BB9DF2D9B9B7E00A77A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC26AC18745CDF6E1D7CDCB8 /* Pods-HXTakuAdapter-iOS-ExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXTakuAdapter-iOS-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXTakuAdapter-iOS-Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HXTakuAdapter-iOS-Example";
+			};
+			name = Release;
+		};
+		E44BB9E12D9B9B7E00A77A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0CBE387188A4C393C5AE77 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXTakuAdapter-iOS-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXTakuAdapter-iOS-Example";
+			};
+			name = Debug;
+		};
+		E44BB9E22D9B9B7E00A77A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560EE689720D26BE2E824019 /* Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hxad.sdk.HXTakuAdapter-iOS-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HXTakuAdapter-iOS-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44BB9A52D9B9B7D00A77A3E /* Build configuration list for PBXProject "HXTakuAdapter-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BB9DB2D9B9B7E00A77A3E /* Debug */,
+				E44BB9DC2D9B9B7E00A77A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44BB9D82D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BB9D92D9B9B7E00A77A3E /* Debug */,
+				E44BB9DA2D9B9B7E00A77A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44BB9DD2D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BB9DE2D9B9B7E00A77A3E /* Debug */,
+				E44BB9DF2D9B9B7E00A77A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44BB9E02D9B9B7E00A77A3E /* Build configuration list for PBXNativeTarget "HXTakuAdapter-iOS-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44BB9E12D9B9B7E00A77A3E /* Debug */,
+				E44BB9E22D9B9B7E00A77A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44BB9A22D9B9B7D00A77A3E /* Project object */;
+}
