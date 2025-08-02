@@ -15,7 +15,7 @@
         */
         
         NSString *appId = serverInfo[kATHXConfigKey_AppID];
-        [HXSDK initWithAppIdWithAppId:appId?[NSString stringWithFormat:@"%@", appId]:nil];
+        [HXSDK setAppId:appId?[NSString stringWithFormat:@"%@", appId]:nil];
     });
     if (completion) {
         completion(nil);

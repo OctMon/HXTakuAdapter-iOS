@@ -82,7 +82,7 @@
 
     NSDictionary *serverInfo = info;
     NSDictionary *localInfo = info;
-    if (NSClassFromString(@"HXSDK.HXSDK") == nil) {
+    if (NSClassFromString(@"HXSDK") == nil) {
         // 未接入HXSDK，则执行回调，传入error
         if (completion != nil) {
             completion(nil, [NSError errorWithDomain:kATHXAdapterErrorDomain code:kATHXAdapterErrorCode_SDKNotFound userInfo:@{NSLocalizedDescriptionKey:@"Bid request has failed", NSLocalizedFailureReasonErrorKey:@"HXSDK is not imported"}]);

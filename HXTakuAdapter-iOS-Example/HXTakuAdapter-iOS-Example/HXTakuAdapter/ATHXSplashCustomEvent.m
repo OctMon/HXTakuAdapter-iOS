@@ -117,7 +117,7 @@
 /**
  *  广告转化完成：关闭落地页或者跳转到其他应用
  */
-- (void)hxSplashAdDidFinishConversion:(HXSplashAd *)splashAd interactionType:(HXAdInteractionType)interactionType {
+- (void)hxSplashAdDidFinishConversion:(HXSplashAd *)splashAd {
     AdnLog(@"[ADN] %s", __func__);
     [self trackSplashAdDetailClosed];
 }

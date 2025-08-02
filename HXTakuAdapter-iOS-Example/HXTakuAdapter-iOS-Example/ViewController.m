@@ -28,7 +28,7 @@
     // 设置开屏广告中支持广告源设置加载超时时间，并不是整个广告位请求的时间
     [mutableDict setValue:@5.5 forKey:kATSplashExtraTolerateTimeoutKey];
     
-    [[ATAdManager sharedManager] loadADWithPlacementID:@"b67e41041152f4"
+    [[ATAdManager sharedManager] loadADWithPlacementID:@"b688b21ef2a99f"
                                                  extra:mutableDict
                                               delegate:self
                                          containerView:label];
@@ -69,7 +69,7 @@
     // 到达场景
 //    [self entryAdScenario];
 
-    if ([[ATAdManager sharedManager] splashReadyForPlacementID:@"b67e41041152f4"]) {
+    if ([[ATAdManager sharedManager] splashReadyForPlacementID:@"b688b21ef2a99f"]) {
         // 根据实际情况选择获取到的keyWindow的方法 getKeyWindowMethodOne 和 getKeyWindowMethodTwo
         UIWindow *mainWindow = [self getKeyWindowMethodOne];
         // 自定义跳过按钮，注意需要在广告倒计时 splashCountdownTime: 回调中实现按钮文本的变化处理
@@ -90,7 +90,7 @@
         [mutableDict setValue:@500 forKey:kATSplashExtraCountdownIntervalKey];
         */
         
-        [[ATAdManager sharedManager] showSplashWithPlacementID:@"b67e41041152f4" scene:nil window:mainWindow extra:mutableDict delegate:self];
+        [[ATAdManager sharedManager] showSplashWithPlacementID:@"b688b21ef2a99f" scene:nil window:mainWindow extra:mutableDict delegate:self];
     }
 }
 

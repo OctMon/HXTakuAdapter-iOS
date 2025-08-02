@@ -7,7 +7,7 @@ target 'HXTakuAdapter-iOS-Example' do
 
   # Pods for HXTakuAdapter-iOS-Example
   pod 'AnyThinkiOS','6.3.75'
-  pod 'HXSDK', :path => '../../HXSDK'
+  pod 'HXSDK', '~> 4.1.1'
 
   target 'HXTakuAdapter-iOS-ExampleTests' do
     inherit! :search_paths

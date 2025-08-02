@@ -2,32 +2,25 @@ PODS:
   - AnyThinkiOS (6.3.75):
     - AnyThinkiOS/AnyThinkSDK (= 6.3.75)
   - AnyThinkiOS/AnyThinkSDK (6.3.75)
-  - HXSDK (0.0.1):
-    - UBiXMerakSDK (~> 2.5.1)
-  - UBiXDaq (2.4.0)
-  - UBiXMerakSDK (2.5.1.0001):
-    - UBiXDaq (~> 2.4.0)
+  - HXSDK (4.1.1):
+    - PTGAdFramework (~> 2.2.80)
+  - PTGAdFramework (2.2.80)
 
 DEPENDENCIES:
   - AnyThinkiOS (= 6.3.75)
-  - HXSDK (from `../../HXSDK`)
+  - HXSDK (~> 4.1.1)
 
 SPEC REPOS:
   trunk:
     - AnyThinkiOS
-    - UBiXDaq
-    - UBiXMerakSDK
-
-EXTERNAL SOURCES:
-  HXSDK:
-    :path: "../../HXSDK"
+    - HXSDK
+    - PTGAdFramework
 
 SPEC CHECKSUMS:
   AnyThinkiOS: 62fad7c352ff14639d0c0bc1496e874e3e11c271
-  HXSDK: 952568a41424469b75a8ea65b479e4630e8a261c
-  UBiXDaq: 8cadda28547c9ea8124cdbcfc9da63493b168858
-  UBiXMerakSDK: da7232992a1ec704559126c1dbd6d82af2e21f79
+  HXSDK: 9b180f47c14c0bc962297a374468177b8a8cc2a4
+  PTGAdFramework: bc4153b8e204a7f810a910d829735e54acbc040f
 
-PODFILE CHECKSUM: adceec1164722ef6f3c6a77a11c461fda1ad7274
+PODFILE CHECKSUM: f0d6725ed543dced688f054454ecf414e89b1a98
 
 COCOAPODS: 1.16.2
