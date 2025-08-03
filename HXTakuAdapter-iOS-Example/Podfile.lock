@@ -2,13 +2,16 @@ PODS:
   - AnyThinkiOS (6.3.75):
     - AnyThinkiOS/AnyThinkSDK (= 6.3.75)
   - AnyThinkiOS/AnyThinkSDK (6.3.75)
-  - HXSDK (4.1.1):
+  - HXSDK (4.4.0):
+    - HXSDK/Core (= 4.4.0)
+    - PTGAdFramework (~> 2.2.80)
+  - HXSDK/Core (4.4.0):
     - PTGAdFramework (~> 2.2.80)
   - PTGAdFramework (2.2.80)
 
 DEPENDENCIES:
   - AnyThinkiOS (= 6.3.75)
-  - HXSDK (~> 4.1.1)
+  - HXSDK (~> 4.4.0)
 
 SPEC REPOS:
   trunk:
@@ -18,9 +21,9 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AnyThinkiOS: 62fad7c352ff14639d0c0bc1496e874e3e11c271
-  HXSDK: 9b180f47c14c0bc962297a374468177b8a8cc2a4
+  HXSDK: 4fac7088f4fa70e092ae6e04c71b951421882cf3
   PTGAdFramework: bc4153b8e204a7f810a910d829735e54acbc040f
 
-PODFILE CHECKSUM: f0d6725ed543dced688f054454ecf414e89b1a98
+PODFILE CHECKSUM: 52153caa79f94a7028e1a9cee10c13f08b40e5fa
 
 COCOAPODS: 1.16.2

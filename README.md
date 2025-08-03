@@ -1,8 +1,8 @@
 ## 1、IOS集成步骤
 ### 1.1 添加SDK依赖
-#### 1.1.1 pox HXSDK
+#### 1.1.1 pod HXSDK
 ```
-pod 'HXSDK'
+pod 'HXSDK', '~> 4.4.0'
 ```
 ### 2.1 添加Taku适配器依赖
 #### 2.1.1 手动下载HXTakuAdapter源码文件，添加到项目中，地址：https://github.com/octMon/HXTakuAdapter-i0S/tree/main/HXTakuAdapter-i0S-Example/HXTakuAdapter-i0S.Example
