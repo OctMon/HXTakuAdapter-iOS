@@ -65,11 +65,15 @@
 		};
 		E44BB9C82D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "HXTakuAdapter-iOS-ExampleTests";
 			sourceTree = "<group>";
 		};
 		E44BB9D22D9B9B7E00A77A3E /* HXTakuAdapter-iOS-ExampleUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = "HXTakuAdapter-iOS-ExampleUITests";
 			sourceTree = "<group>";
 		};
@@ -159,7 +163,7 @@
 				E44BB9A62D9B9B7D00A77A3E /* Sources */,
 				E44BB9A72D9B9B7D00A77A3E /* Frameworks */,
 				E44BB9A82D9B9B7D00A77A3E /* Resources */,
-				C95AF17ADC5B98002FF37DB1 /* [CP] Copy Pods Resources */,
+				A9D860F18F266297FB0E32FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,7 +207,7 @@
 				E44BB9CB2D9B9B7E00A77A3E /* Sources */,
 				E44BB9CC2D9B9B7E00A77A3E /* Frameworks */,
 				E44BB9CD2D9B9B7E00A77A3E /* Resources */,
-				0469DD86C8EF42CAFDD204B0 /* [CP] Copy Pods Resources */,
+				9DC36C0562DA4468723CDAE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,23 +290,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0469DD86C8EF42CAFDD204B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2DF8318182B69FA2F5CFD74A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +310,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC36C0562DA4468723CDAE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests/Pods-HXTakuAdapter-iOS-Example-HXTakuAdapter-iOS-ExampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A181B82041686F46A3BBFCE7 /* [CP] Check Pods Manifest.lock */ = {
@@ -347,7 +351,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C95AF17ADC5B98002FF37DB1 /* [CP] Copy Pods Resources */ = {
+		A9D860F18F266297FB0E32FA /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
