@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = 'HXTakuAdapter'
-  s.version      = '0.0.2'
+  s.version      = '1.0.0'
   s.summary      = 'HXSDK 适配器, 用于在TopOn聚合SDK请求广告'
   s.homepage     = 'https://github.com/OctMon/HXTakuAdapter.git'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'OctMon' => 'octmon@qq.com' }
-  s.source       = { :git => 'https://github.com/OctMon/HXTakuAdapter.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/OctMon/HXTakuAdapter-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.static_framework = true
   s.ios.source_files = 'HXTakuAdapter/Classes/**/*.{h,m}'
