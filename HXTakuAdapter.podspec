@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
 
   s.static_framework = true
-  s.source_files = 'HXTakuAdapter/**/*.{h,m}'
+  s.ios.source_files = 'HXTakuAdapter/**/*.{h,m}'
   # Public
   s.ios.public_header_files = 'HXTakuAdapter/*.h'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
