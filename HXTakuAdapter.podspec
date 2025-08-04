@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/OctMon/HXTakuAdapter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.static_framework = true
-  s.ios.source_files = 'HXTakuAdapter/Classes/*.{h,m}'
-  s.ios.public_header_files = 'HXTakuAdapter/Classes/*.h'
+  s.source_files = 'HXTakuAdapter/Classes/**/*.{h,m}'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
   
