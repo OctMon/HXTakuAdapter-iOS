@@ -2,7 +2,7 @@
 ### 1.1 添加SDK依赖
 #### 1.1.1 pod HXSDK
 ```
-pod 'HXSDK', '~> 4.4.0'
+pod 'HXSDK', '~> 4.4.1'
 ```
 ### 2.1 添加Taku适配器依赖
 #### 2.1.1 手动下载HXTakuAdapter源码文件，添加到项目中，地址：https://github.com/OctMon/HXTakuAdapter-iOS/tree/main/HXTakuAdapter-iOS-Example/HXTakuAdapter-iOS-Example/HXTakuAdapter
