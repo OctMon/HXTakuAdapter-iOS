@@ -4,6 +4,7 @@
 ```
 pod 'HXTakuAdapter'
 ```
+
 ### 2、TaKu平台上配置自定义广告平台
 Adapter类名介绍
 ```
